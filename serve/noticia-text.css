@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Noticia Text';
-    src: url('src/noticia-text/noticia-text.woff2') format('woff2'),
-        url('src/noticia-text/noticia-text.woff') format('woff');
+    src: url('src/noticia-text/noticia-text-regular.woff2') format('woff2'),
+        url('src/noticia-text/noticia-text-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
