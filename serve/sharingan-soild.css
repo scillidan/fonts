@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Sharingan Soild';
+    src: url('src/sharingan-soild/sharingan-soild.eot');
+    src: url('src/sharingan-soild/sharingan-soild.eot?#iefix') format('embedded-opentype'),
+    url('src/sharingan-soild/sharingan-soild.svg#my-font-family') format('svg'),
+    url('src/sharingan-soild/sharingan-soild.woff') format('woff'),
+    url('src/sharingan-soild/sharingan-soild.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sharingan-soild {
+  font-family: "Sharingan Soild";
+}
