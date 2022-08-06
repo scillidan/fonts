@@ -10,10 +10,6 @@
     font-style: normal;
 }
 
-.sharingan-soild {
-  font-family: "Sharingan Soild";
-}
-
-.ion-ios-heart:before {
-    content: ""
+.sharingan-soild:before {
+    content: "j"
 }
