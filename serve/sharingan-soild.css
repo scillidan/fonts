@@ -4,6 +4,7 @@
     src: url('src/sharingan-soild/sharingan-soild.eot?#iefix') format('embedded-opentype'),
     url('src/sharingan-soild/sharingan-soild.svg#my-font-family') format('svg'),
     url('src/sharingan-soild/sharingan-soild.woff') format('woff'),
+    url('src/sharingan-soild/sharingan-soild.woff2') format('woff'),
     url('src/sharingan-soild/sharingan-soild.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -11,4 +12,8 @@
 
 .sharingan-soild {
   font-family: "Sharingan Soild";
+}
+
+.ion-ios-heart:before {
+    content: ""
 }
