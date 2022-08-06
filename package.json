@@ -1,16 +1,16 @@
 {
-  "name": "@xz/fonts",
+  "name": "@scillidan/fonts",
   "version": "1.0.2",
-  "description": "A fast, open-source CDN for open-source fonts",
+  "description": "(testing) open-source CDN for open-source zh-cn fonts",
   "main": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xz/fonts.git"
+    "url": "git+https://github.com/scillidan/fonts.git"
   },
-  "author": "Example (exampledev@protonmail.com)",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xz/fonts/issues"
+    "url": "https://github.com/scillidan/fonts/issues"
   },
-  "homepage": "https://github.com/xz/fonts#readme"
+  "homepage": "https://github.com/scillidan/fonts#readme"
 }

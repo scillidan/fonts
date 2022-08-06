@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Noticia Text';
+    src: url('src/noticia-text/noticia-text.woff2') format('woff2'),
+        url('src/noticia-text/noticia-text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noticia Text';
+    src: url('src/noticia-text/noticia-text-italic.woff2') format('woff2'),
+        url('src/noticia-text/noticia-text-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noticia Text';
+    src: url('src/noticia-text/noticia-text-bold.woff2') format('woff2'),
+        url('src/noticia-text/noticia-text-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noticia Text';
+    src: url('src/noticia-text/noticia-text-bold-italic.woff2') format('woff2'),
+        url('src/noticia-text/noticia-text-bold-italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
