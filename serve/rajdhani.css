@@ -1,0 +1,9 @@
+@font-face {
+font-family: 'Rajdhani';
+src: url('src/rajdhani/rajdhani-regular.woff2') format('woff2'),
+url('src/rajdhani/rajdhani-regular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
