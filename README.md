@@ -1,4 +1,3 @@
-fonts
-===
+# fonts
 
-CDN for open-source fonts.
+Used as CDN.
