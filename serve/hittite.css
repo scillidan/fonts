@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Hittite';
+    src: url('src/hittite/hittite.woff2') format('woff2'), url('src/hittite/hittite.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
