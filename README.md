@@ -6,10 +6,10 @@ Used as CDN for personal websites.
 
 | font | source | license |
 | - | - | - |
-| Sarasa Mono SC | [github](https://github.com/be5invis/Sarasa-Gothic) | [![](https://img.shields.io/github/license/be5invis/Sarasa-Gothic/?label=&style=flat-square)](https://github.com/be5invis/Sarasa-Gothic/blob/main/LICENSE) |
+| Sarasa Mono SC | [github](https://github.com/be5invis/Sarasa-Gothic) | [![](https://img.shields.io/github/license/be5invis/Sarasa-Gothic)](https://github.com/be5invis/Sarasa-Gothic/blob/main/LICENSE) |
 | Noticia Text | [1001fonts](https://www.1001fonts.com/noticia-text-font.html) | OFL |
 | EB Garamond 12 | [1001fonts](https://www.1001fonts.com/eb-garamond-font.html) | OFL |
-| LxgwWenKai GB Screen | [github](https://github.com/lxgw/LxgwWenKai-Screen) | [![](https://img.shields.io/github/license/lxgw/LxgwWenKai/?label=&style=flat-square)](https://github.com/lxgw/LxgwWenKai/blob/main/LICENSE) |
+| LxgwWenKai GB Screen | [github](https://github.com/lxgw/LxgwWenKai-Screen) | [![](https://img.shields.io/github/license/lxgw/LxgwWenKai)](https://github.com/lxgw/LxgwWenKai/blob/main/LICENSE) |
 | Hittle | [github](https://github.com/cesine/hittite-font) | [GPLv2](https://github.com/cesine/hittite-font/blob/master/hittitefontguide.english0.0.2.pdf) |
 
 ## Tool
