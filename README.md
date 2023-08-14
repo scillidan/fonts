@@ -6,11 +6,11 @@ Used as CDN for personal websites.
 
 | font | source | license |
 | - | - | - |
-| Sarasa Mono SC | [github](https://github.com/be5invis/Sarasa-Gothic) | [![](https://img.shields.io/github/license/be5invis/Sarasa-Gothic)](https://github.com/be5invis/Sarasa-Gothic/blob/main/LICENSE) |
+| Sarasa Mono SC / 更纱等距黑体SC | [github](https://github.com/be5invis/Sarasa-Gothic) | [![](https://img.shields.io/github/license/be5invis/Sarasa-Gothic)](https://github.com/be5invis/Sarasa-Gothic/blob/main/LICENSE) |
 | Noticia Text | [1001fonts](https://www.1001fonts.com/noticia-text-font.html) | OFL |
 | EB Garamond 12 | [1001fonts](https://www.1001fonts.com/eb-garamond-font.html) | OFL |
-| LxgwWenKai GB Screen | [github](https://github.com/lxgw/LxgwWenKai-Screen) | [![](https://img.shields.io/github/license/lxgw/LxgwWenKai)](https://github.com/lxgw/LxgwWenKai/blob/main/LICENSE) |
 | Hittle | [github](https://github.com/cesine/hittite-font) | [GPLv2](https://github.com/cesine/hittite-font/blob/master/hittitefontguide.english0.0.2.pdf) |
+| Fusion Kai / 缝合楷 | [github](https://github.com/lxgw/FusionKai) | [![](https://img.shields.io/github/license/lxgw/FusionKai)](https://github.com/lxgw/FusionKai/blob/main/LICENSE) |
 
 ## Tool
 
