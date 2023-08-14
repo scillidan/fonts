@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'LxgwWenKai GB Screen';
-    src: url('src/lxgwwenkai-gb-screen/lxgwwenkai-gb-screen.woff2') format('woff2'),
-        url('src/lxgwwenkai-gb-screen/lxgwwenkai-gb-screen.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}

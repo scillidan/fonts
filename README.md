@@ -35,24 +35,18 @@ Download some fonts.
 ```
 webify --no-eot --no-svg font.ttf
 cat font.ttf | ttf2woff2 > font.woff2
+mkdir -p serve/src/fontdir
 ```
 
-Put `font.woff` `font.woff2` into `fonts/serve`. (I only used `.woff` and `.woff2`.)
+Put `font.woff` `font.woff2` into `fontdir`. (I only used `.woff` and `.woff2`.)
 
-```
-cd serve
-mkdir font && move font*.woff* font && move font ../serve/src/font
-feel ../serve/font.css
-subl ../serve/font.css
-```
-
-Add:
+Create `serve/font.css`, and edit it:
 
 ```
 @font-face {
     font-family: 'name';
-    src: url('src/font/font.woff2') format('woff2'),
-    url('src/font/font.woff') format('woff');
+    src: url('src/fontdir/font.woff2') format('woff2'),
+         url('src/fontdir/font.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
