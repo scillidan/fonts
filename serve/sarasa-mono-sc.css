@@ -1,7 +1,8 @@
 @font-face {
-    font-family: 'Sarasa Mono SC';
-    src: url('src/sarasa-mono-sc/sarasa-mono-sc-regular.woff2') format('woff2'),
-        url('src/sarasa-mono-sc/sarasa-mono-sc-regular.woff') format('woff');
+    font-family: "Sarasa Mono SC";
+    src:
+        url("src/sarasa-mono-sc/sarasa-mono-sc-regular.woff2") format("woff2"),
+        url("src/sarasa-mono-sc/sarasa-mono-sc-regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
