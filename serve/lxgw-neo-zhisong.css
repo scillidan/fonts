@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'LXGW Neo ZhiSong';
-    src:
-        url('src/lxgw-neo-zhisong/lxgw-neo-zhisong.woff2') format('woff2'),
-        url('src/lxgw-neo-zhisong/lxgw-neo-zhisong.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
