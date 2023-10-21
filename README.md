@@ -12,6 +12,7 @@ Used as CDN for personal websites.
 | Hittle | [github](https://github.com/cesine/hittite-font) | [GPLv2](https://github.com/cesine/hittite-font/blob/master/hittitefontguide.english0.0.2.pdf) | hittite.css |
 | Fusion Kai | [github](https://github.com/lxgw/FusionKai) | [![](https://img.shields.io/github/license/lxgw/FusionKai)](https://github.com/lxgw/FusionKai/blob/main/LICENSE) | fusion-kai-g.css |
 | LXGW WenKai GB | [github](https://github.com/lxgw/LxgwWenkaiGB) | [![](https://img.shields.io/github/license/lxgw/LxgwWenkaiGB)](https://github.com/lxgw/LxgwWenkaiGB/blob/main/LICENSE.txt) | lxgw-wenkai-gb.css, lxgw-wenkai-mono-gb.css |
+| Markazi Text | [1001fonts](https://www.1001fonts.com/markazi-text-font.html) | OFL | markazi-text.css |
 
 ## Tool
 
