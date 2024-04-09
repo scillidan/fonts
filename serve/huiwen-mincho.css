@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Huiwen-mincho';
+    src:
+        url('src/huiwen-mincho/huiwen-mincho.woff2') format('woff2'),
+        url('src/huiwen-mincho/huiwen-mincho.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
