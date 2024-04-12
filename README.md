@@ -1,6 +1,6 @@
 # fonts
 
-Used as CDN for personal websites. See [table.md](table.md)
+Used as CDN for personal websites. See [table.md](table.md).
 
 ## Tool
 
