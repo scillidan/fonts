@@ -1,0 +1,9 @@
+@@font-face {
+    font-family: 'KingHwa OldSong';
+    src:
+        url('src/kinghwa-oldsong/kinghwa-oldsong.woff2') format('woff2'),
+        url('src/kinghwa-oldsong/kinghwa-oldsong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

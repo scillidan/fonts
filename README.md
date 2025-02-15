@@ -1,6 +1,6 @@
 # fonts
 
-Used as webfont CDN.
+Used as personal webfont CDN.
 
 ## Tools
 
