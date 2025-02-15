@@ -20,45 +20,39 @@ cd fonts
 
 Modify `package.json` by yourself.
 
-You can delete fonts that you don't need.
-
-Download some fonts.
-
 ```sh
-webify --no-eot --no-svg <font>.ttf
-cat <font>.ttf | ttf2woff2 > <font>.woff2
-mkdir -p serve\src\<font>
-mv <font>.<font>.woff* serve\src\<font>\
-touch serve\<font>.css
+webify --no-eot --no-svg fontname.ttf
+cat fontname.ttf | ttf2woff2 > fontname.woff2
+mkdir -p serve\src\fontname
+mv fontname.woff* serve\src\fontname\
+touch serve\fontname.css
 ```
 
-```
+```css
 @font-face {
     font-family: 'Font Name';
-    src: url('src/<font>/<font>.woff2') format('woff2'),
-         url('src/<font>/<font>.woff') format('woff');
+    src: url('src/fontname/fontname.woff2') format('woff2'),
+         url('src/fontname/fontname.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 ```
 
-Refer to [noticia-text.css](serve/noticia-text.css) to define `font-style` or `font-weight`.
-
 ```sh
 git add .
-git commit -m "Add <font>"
+git commit -m "Add fontname"
 git push
 ```
 
-Goto `https://github.com/<User>/fonts/releases` → Draft a new release → Choose a tag → Input a tag liked `0.x.x` → Publish release.
+Goto `https://github.com/<user>/fonts/releases` → Draft a new release → Choose a tag → Input a tag liked `0.0.x` → Publish release.
 
 ## Usage
 
 Edit `style.css`:
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/<User>/fonts@master/serve/<font>.css");
+@import url("https://cdn.jsdelivr.net/gh/<user>/fonts@master/serve/fontname.css");
 
 body {
   font-family: 'Font Name', sans-serif;

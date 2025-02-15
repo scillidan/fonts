@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'LXGW WenKai Mono GB';
     src:
-        url('src/lxgw-wenkai-mono-gb/lxgw-wenkai-mono-gb-300-normal.woff') format('woff2'),
-        url('src/lxgw-wenkai-mono-gb/lxgw-wenkai-mono-gb-300-normal.woff') format('woff');
+        url('src/lxgw-wenkai-mono-gb/LXGWWenKaiMonoGB-Light.woff') format('woff2'),
+        url('src/lxgw-wenkai-mono-gb/LXGWWenKaiMonoGB-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -11,8 +11,8 @@
 @font-face {
     font-family: 'LXGW WenKai Mono GB';
     src:
-        url('src/lxgw-wenkai-mono-gb/lxgw-wenkai-mono-gb-400-normal.woff') format('woff2'),
-        url('src/lxgw-wenkai-mono-gb/lxgw-wenkai-mono-gb-400-normal.woff') format('woff');
+        url('src/lxgw-wenkai-mono-gb/LXGWWenKaiMonoGB-Regular.woff') format('woff2'),
+        url('src/lxgw-wenkai-mono-gb/LXGWWenKaiMonoGB-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -21,9 +21,9 @@
 @font-face {
     font-family: 'LXGW WenKai Mono GB';
     src:
-        url('src/lxgw-wenkai-mono-gb/lxgw-wenkai-mono-gb-700-normal.woff') format('woff2'),
-        url('src/lxgw-wenkai-mono-gb/lxgw-wenkai-mono-gb-700-normal.woff') format('woff');
-    font-weight: 700;
+        url('src/lxgw-wenkai-mono-gb/LXGWWenKaiMonoGB-Medium.woff') format('woff2'),
+        url('src/lxgw-wenkai-mono-gb/LXGWWenKaiMonoGB-Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }

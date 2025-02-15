@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Smiley Sans';
     src:
-        url('src/smiley-sans/smiley-sans-oblique.woff2') format('woff2'),
-        url('src/smiley-sans/smiley-sans-oblique.woff) format('woff');
+        url('src/smiley-sans/SmileySans-Oblique.woff2') format('woff2'),
+        url('src/smiley-sans/SmileySans-Oblique.woff) format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;

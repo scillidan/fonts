@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Fusion Kai J";
     src:
-        url("src/fusion-kai/fusion-kai-j-regular.woff2") format("woff2"),
-        url("src/fusion-kai/fusion-kai-j-regular.woff") format("woff");
+        url("src/fusion-kai/FusionKaiJ-Regular.woff2") format("woff2"),
+        url("src/fusion-kai/FusionKaiJ-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

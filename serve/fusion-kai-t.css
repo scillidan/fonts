@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Fusion Kai T";
     src:
-        url("src/fusion-kai/fusion-kai-t-regular.woff2") format("woff2"),
-        url("src/fusion-kai/fusion-kai-t-regular.woff") format("woff");
+        url("src/fusion-kai/FusionKaiT-Regular.woff2") format("woff2"),
+        url("src/fusion-kai/FusionKaiT-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
