@@ -1,0 +1,42 @@
+name: Create Release Tag
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Check commit message
+        id: check_commit
+        run: |
+          echo "Commit message: ${{ github.event.head_commit.message }}"
+          if [[ "${{ github.event.head_commit.message }}" =~ ^add\ (.+) ]]; then
+            echo "matches=true" >> $GITHUB_ENV
+            echo "description=${BASH_REMATCH[1]}" >> $GITHUB_ENV
+          else
+            echo "matches=false" >> $GITHUB_ENV
+          fi
+
+      - name: Get current version
+        id: get_version
+        run: |
+          git fetch --tags
+          latest_tag=$(git describe --tags --abbrev=0)
+          echo "Latest tag: $latest_tag"
+          IFS='.' read -r major minor patch <<< "${latest_tag#v}"
+          new_patch=$((patch + 1))
+          new_version="v${major}.${minor}.${new_patch}"
+          echo "new_version=${new_version}" >> $GITHUB_ENV
+
+      - name: Create new release
+        if: env.matches == 'true'
+        run: |
+          gh release create "${{ env.new_version }}" --title "${{ env.new_version }}" --notes "Description: ${{ env.description }}"
+          git tag "${{ env.new_version }}"
+          git push origin "${{ env.new_version }}"
