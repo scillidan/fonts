@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Cardo';
+    src:
+        url('src/cardo/cardo-104s.woff2') format('woff2'),
+        url('src/cardo/cardo-104s.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cardo';
+    src:
+        url('src/cardo/cardo-b101.woff2') format('woff2'),
+        url('src/cardo/cardo-b101.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cardo';
+    src:
+        url('src/cardo/cardo-i99.woff2') format('woff2'),
+        url('src/cardo/cardo-i99.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
