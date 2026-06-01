@@ -2,7 +2,12 @@
 
 [![](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://scillidan-fonts.vercel.app)
 
-Personal webfont CDN.
+Fonts CDN.
+
+## Todo
+
+- [ ] Use JSON to manage font data
+- [ ] Use actions for workflows
 
 ## How make it
 
@@ -57,12 +62,7 @@ Visit `https://github.com/<yourname>/fonts/releases` → Draft a new release →
 body {
   font-family: 'Font Name', sans-serif;
 }
-```
-
-## Todo
-
-- [ ] Use JSON to manage font data
-- [ ] Use actions for workflows
+``
 
 ## Reference
 
