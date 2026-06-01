@@ -59,6 +59,11 @@ body {
 }
 ```
 
+## Todo
+
+- [ ] Use JSON to manage font data
+- [ ] Use actions for workflows
+
 ## Reference
 
 - [font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
