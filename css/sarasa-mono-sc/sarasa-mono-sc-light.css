@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Sarasa Mono SC';
+  src: url('https://cdn.jsdelivr.net/gh/scillidan/fonts@sarasa-mono-sc@1.0.40/fonts/sarasa-mono-sc/sarasa-mono-sc-light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,12 +1,7 @@
 [
   {
-    "cssId": "lxgw-wenkai-gb",
-    "version": "1.522",
-    "homepage": "https://github.com/lxgw/LxgwWenkaiGB"
-  },
-  {
-    "cssId": "lxgw-wenkai-mono-gb",
-    "version": "1.522",
-    "homepage": "https://github.com/lxgw/LxgwWenkaiGB"
+    "cssId": "sarasa-mono-sc",
+    "version": "1.0.40",
+    "homepage": "https://github.com/be5invis/Sarasa-Gothic"
   }
 ]
