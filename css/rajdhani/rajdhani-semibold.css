@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Rajdhani';
+  src: url('https://cdn.jsdelivr.net/gh/scillidan/fonts@rajdhani@2.000/fonts/rajdhani/rajdhani-semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

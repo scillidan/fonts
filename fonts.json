@@ -23,5 +23,10 @@
     "cssId": "hittite",
     "version": "20030705",
     "homepage": "https://github.com/cesine/hittite-font"
+  },
+  {
+    "cssId": "rajdhani",
+    "version": "2.000",
+    "homepage": "https://github.com/itfoundry/rajdhani"
   }
 ]
