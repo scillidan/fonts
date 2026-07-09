@@ -18,5 +18,10 @@
     "cssId": "lxgw-wenkai-mono-gb",
     "version": "1.522",
     "homepage": "https://github.com/lxgw/LxgwWenkaiGB"
+  },
+  {
+    "cssId": "hittite",
+    "version": "20030705",
+    "homepage": "https://github.com/cesine/hittite-font"
   }
 ]
