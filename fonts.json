@@ -1,7 +1,12 @@
 [
   {
-    "cssId": "smiley-sans",
-    "version": "2.0.1",
-    "homepage": "https://github.com/atelier-anchor/smiley-sans"
+    "cssId": "lxgw-wenkai-gb",
+    "version": "1.522",
+    "homepage": "https://github.com/lxgw/LxgwWenkaiGB"
+  },
+  {
+    "cssId": "lxgw-wenkai-mono-gb",
+    "version": "1.522",
+    "homepage": "https://github.com/lxgw/LxgwWenkaiGB"
   }
 ]

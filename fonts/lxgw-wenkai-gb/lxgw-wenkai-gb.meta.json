@@ -1,0 +1,26 @@
+{
+  "font_name": "LXGW WenKai GB",
+  "font_face": [
+    {
+      "src": "lxgw-wenkai-gb-light.woff2",
+      "font_weight": 300,
+      "font_style": "normal",
+      "font_family": "LXGW WenKai GB",
+      "font_subfamily": "Regular"
+    },
+    {
+      "src": "lxgw-wenkai-gb-medium.woff2",
+      "font_weight": 500,
+      "font_style": "normal",
+      "font_family": "LXGW WenKai GB",
+      "font_subfamily": "Regular"
+    },
+    {
+      "src": "lxgw-wenkai-gb.woff2",
+      "font_weight": 400,
+      "font_style": "normal",
+      "font_family": "LXGW WenKai GB",
+      "font_subfamily": "Regular"
+    }
+  ]
+}

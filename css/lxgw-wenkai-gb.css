@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'LXGW WenKai GB';
+  src: url('https://cdn.jsdelivr.net/gh/scillidan/fonts@lxgw-wenkai-gb@1.522/fonts/lxgw-wenkai-gb/lxgw-wenkai-gb-light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LXGW WenKai GB';
+  src: url('https://cdn.jsdelivr.net/gh/scillidan/fonts@lxgw-wenkai-gb@1.522/fonts/lxgw-wenkai-gb/lxgw-wenkai-gb-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LXGW WenKai GB';
+  src: url('https://cdn.jsdelivr.net/gh/scillidan/fonts@lxgw-wenkai-gb@1.522/fonts/lxgw-wenkai-gb/lxgw-wenkai-gb.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
