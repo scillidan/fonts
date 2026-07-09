@@ -127,12 +127,24 @@ function main(fontIds) {
 
   console.log(`\n✓ Built ${activeFonts.length} font families`);
 
-  const fontsJson = activeFonts.map(f => ({
+  let fontsJson;
+  const fontsJsonPath = join(root, 'fonts.json');
+  const newEntries = activeFonts.map(f => ({
     cssId: f.cssId,
     version: f.version,
     homepage: f.homepage,
   }));
-  writeFileSync(join(root, 'fonts.json'), JSON.stringify(fontsJson, null, 2) + '\n');
+
+  if (existsSync(fontsJsonPath)) {
+    const existing = JSON.parse(readFileSync(fontsJsonPath, 'utf-8'));
+    const mergedMap = new Map();
+    for (const entry of existing) mergedMap.set(entry.cssId, entry);
+    for (const entry of newEntries) mergedMap.set(entry.cssId, entry);
+    fontsJson = [...mergedMap.values()];
+  } else {
+    fontsJson = newEntries;
+  }
+  writeFileSync(fontsJsonPath, JSON.stringify(fontsJson, null, 2) + '\n');
 }
 
 const fontIds = process.argv.slice(2);
